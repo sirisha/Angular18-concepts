@@ -2,4 +2,8 @@
 <app-footer></app-footer>
 
 
-
+<!-- Displaying fruits data with @for loop just for demo without service later on another method will create service file -->
+<h2>Fruits Names and Prices</h2>
+@for(fruit of fruitsData; track fruit.id){
+    <p>{{fruit.name}} - {{fruit.price}} Rs</p>
+}
