@@ -16,6 +16,7 @@ import { SidebarModule } from 'primeng/sidebar';
 export class NavbarComponent implements OnInit {
     items: MenuItem[] | undefined;
     sidebarVisible: boolean = false;
+    
 
     ngOnInit() {
         this.items = [

@@ -1,0 +1,20 @@
+
+{
+    "fruitsData" : [
+    {
+        "id":1,
+        "name":"Apple",
+        "price":22
+    },
+    {
+        "id":2,
+        "name":"Banana",
+        "price":25
+    },
+    {
+        "id":3,
+        "name":"PineApple",
+        "price":30.5
+    }
+]
+}
